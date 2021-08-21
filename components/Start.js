@@ -39,20 +39,24 @@ export default class Start extends React.Component {
 
               <View style={styles.colorMenu}>
                 <TouchableOpacity
-                  style={[styles.selectBgColor, { backgroundColor: '#090C08' }]}
-                  onPress={() => this.setState({ bgColor: '#090C08' })}
+                  style={[styles.selectBgColor, { backgroundColor: '#ffffff' }]}
+                  onPress={() => this.setState({ bgColor: '#ffffff' })}
                 />
                 <TouchableOpacity
-                  style={[styles.selectBgColor, { backgroundColor: '#474056' }]}
-                  onPress={() => this.setState({ bgColor: '#474056' })}
+                  style={[styles.selectBgColor, { backgroundColor: '#008b8b' }]}
+                  onPress={() => this.setState({ bgColor: '#008b8b' })}
                 />
                 <TouchableOpacity
-                  style={[styles.selectBgColor, { backgroundColor: '#8A95A5' }]}
-                  onPress={() => this.setState({ bgColor: '#8A95A5' })}
+                  style={[styles.selectBgColor, { backgroundColor: '#6495ed' }]}
+                  onPress={() => this.setState({ bgColor: '#6495ed' })}
                 />
                 <TouchableOpacity
-                  style={[styles.selectBgColor, { backgroundColor: '#B9C6AE' }]}
-                  onPress={() => this.setState({ bgColor: '#B9C6AE' })}
+                  style={[styles.selectBgColor, { backgroundColor: '#8fbc8f' }]}
+                  onPress={() => this.setState({ bgColor: '#8fbc8f' })}
+                />
+                <TouchableOpacity
+                  style={[styles.selectBgColor, { backgroundColor: '#4b0082' }]}
+                  onPress={() => this.setState({ bgColor: '#4b0082' })}
                 />
               </View>
 
