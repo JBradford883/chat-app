@@ -108,7 +108,7 @@ export default class Chat extends React.Component {
   //   }
   // }
 
-  // Creates a customized bubble
+  // Creates a customized bubble color
   renderBubble(props) {
     return (
       <Bubble
