@@ -61,6 +61,9 @@ export default class Start extends React.Component {
               </View>
 
               <TouchableOpacity
+                accessible={true}
+                accessibilityLabel="Start Chatting"
+                accessibilityHint="Takes you to the chat screen."
                 style={styles.button}
                 title="Start Chatting"
                 onPress={() =>
@@ -99,7 +102,7 @@ const styles = StyleSheet.create({
   },
 
   titleWrapper: {
-    flex: 0.5,
+    flex: 0,
     justifyContent: 'space-evenly',
   },
 
