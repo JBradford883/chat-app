@@ -96,9 +96,17 @@ const styles = StyleSheet.create({
   inputWrapper: {
     flex: 0,
     width: '88%',
-    backgroundColor: '#fff',
+    backgroundColor: 'rgba(245, 245, 245, 0.7)',
+    borderWidth: 1,
+    borderColor: '#000',
     justifyContent: 'space-evenly',
     padding: 15,
+    alignItems: 'center',
+    flexDirection: 'column'
+  },
+
+  colorMenuWrapper: {
+    alignItems: 'center',
   },
 
   image: {
@@ -121,40 +129,48 @@ const styles = StyleSheet.create({
 
   inputField: {
     backgroundColor: '#fff',
+    width: '95%',
     height: 50,
-    borderColor: 'gray',
+    borderColor: '#000',
     borderWidth: 1,
     borderRadius: 3,
     padding: 5,
-    marginBottom: 10
+    marginBottom: 30,
   },
 
   button: {
-    backgroundColor: '#476380',
+    backgroundColor: '#2F4F4F',
     height: 52,
+    width: '95%',
     justifyContent: 'space-evenly',
     alignItems: 'center'
   },
 
   colorMenu: {
     flexDirection: 'row',
-    marginTop: 10,
-    marginBottom: 15,
+    justifyContent: 'space-between',
+  },
+
+  colorOptions: (selectedColor) => ({
+    backgroundColor: selectedColor,
+    width: 40,
+    height: 40,
+    marginHorizontal: 5,
+    borderWidth: 1,
+    borderRadius: 20,
+    marginBottom: 25,
+  }),
+
+  border: {
+    borderWidth: 1,
+    borderColor: '#FFD700',
   },
 
   colorMenuText: {
-    color: '#757083',
+    color: '#2F4F4F',
     fontSize: 16,
     fontWeight: '300',
-    marginBottom: 5
-  },
-
-  selectBgColor: {
-    width: 50,
-    height: 50,
-    marginRight: 5,
-    borderWidth: 2,
-    borderRadius: 25
+    marginBottom: 15,
   },
 
   startChatting: {
