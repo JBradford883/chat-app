@@ -131,7 +131,7 @@ export default class Chat extends React.Component {
   render() {
 
     return (
-      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.props.route.params.bgColor }}>
+      <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: this.props.route.params.backgroundColor }}>
         <View style={styles.chatArea}>
           <GiftedChat
             //renderSystemMessage={this.renderSystemMessage.bind(this)}
