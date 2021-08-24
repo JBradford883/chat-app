@@ -14,7 +14,19 @@ export default class Start extends React.Component {
     };
   }
 
+  // Check for username
+  onStartChatting = (username, backgroundColor) => {
+    if (username == '') {
+      return Alert.alert('Please enter a username');
+    }
+    this.props.navigation.navigate('Chat', {
+      username: `${username}`,
+      backgroundColor: `${backgroundColor}`,
+    });
+  }
+
   render() {
+    const setColor = this.state.backgroundColor;
     return (
       <View style={styles.container}>
 
