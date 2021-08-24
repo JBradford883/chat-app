@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet, ImageBackground, TouchableOpacity, A
 
 // Sets the background image
 const image = require('../assets/Background-Image.png');
+const colors = ['#483D8B', '#5F9EA0', '#D2691E', '#3CB371', '#FFFFFF'];
 
 export default class Start extends React.Component {
   constructor(props) {
