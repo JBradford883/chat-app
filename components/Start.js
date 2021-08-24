@@ -10,7 +10,7 @@ export default class Start extends React.Component {
     super(props);
     this.state = {
       username: '',
-      bgColor: ''
+      backgroundColor: ''
     };
   }
 
