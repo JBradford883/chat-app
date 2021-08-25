@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
     width: '88%',
     backgroundColor: 'rgba(245, 245, 245, 0.7)',
     borderWidth: 1,
-    borderColor: '#000',
+    borderColor: '#2F4F4F',
     justifyContent: 'space-evenly',
     padding: 15,
     alignItems: 'center',
@@ -124,18 +124,21 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 50,
     fontWeight: '600',
-    color: '#fff'
+    color: '#fff',
+    fontFamily: 'Bold'
+
   },
 
   inputField: {
     backgroundColor: '#fff',
     width: '95%',
     height: 50,
-    borderColor: '#000',
+    borderColor: '#2F4F4F',
     borderWidth: 1,
     borderRadius: 3,
     padding: 5,
     marginBottom: 30,
+    fontFamily: 'Regular'
   },
 
   button: {
@@ -169,14 +172,14 @@ const styles = StyleSheet.create({
   colorMenuText: {
     color: '#2F4F4F',
     fontSize: 16,
-    fontWeight: '300',
     marginBottom: 15,
+    fontFamily: 'Regular'
   },
 
   startChatting: {
     color: 'white',
     fontSize: 16,
-    fontWeight: '600'
+    fontFamily: 'Bold'
   }
 
 })
