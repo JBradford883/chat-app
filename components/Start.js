@@ -125,8 +125,10 @@ const styles = StyleSheet.create({
     fontSize: 50,
     fontWeight: '600',
     color: '#fff',
-    fontFamily: 'Bold'
-
+    fontFamily: 'Bold',
+    textShadowColor: 'rgba(0, 0, 0, 0.65)',
+    textShadowOffset: { width: .5, height: .5 },
+    textShadowRadius: 3
   },
 
   inputField: {
