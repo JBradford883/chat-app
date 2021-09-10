@@ -113,17 +113,4 @@ After saving your project run:
 $ expo start
 ```
 
-You can now access and save your very own data via firebase cloud storage.
-
-### **Installing dependencies**
-
-There are a few more depenencies that you will need to install to get the project runing correctly. In your terminal install the following.
-
-```
-$ expo install expo-camera
-$ expo install expo-image-picker
-$ expo install expo-location
-$ npm install react-native-gifted-chat --save
-$ npm install react-native-async-storage --save
-$ npm install --save prop-types
-```
+You can now access and save your very own data via firebase cloud storage. Happy Hacking!
